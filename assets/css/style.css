@@ -21,7 +21,7 @@ body {
     80% {background: #FFC107}
     90% {background: #FF9800}
     95% {background: #FF5722}
-    100% {background: #F44336}
+    100% {background: #FF5722}
 }
 
 @-webkit-keyframes colorchange
@@ -37,7 +37,7 @@ body {
     80% {background: #FFC107}
     90% {background: #FF9800}
     95% {background: #FF5722}
-    100% {background: #F44336}
+    100% {background: #FF5722}
 }
 
 
