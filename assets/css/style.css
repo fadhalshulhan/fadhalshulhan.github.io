@@ -1,6 +1,43 @@
+
+
 body {
-    background-color: #03A9F4;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    animation: colorchange  30s infinite alternate;
+    -webkit-animation: colorchange  30s infinite alternate; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+@keyframes colorchange
+{
+    0% {background: #3F51B5}
+    10% {background: #2196F3}
+    20% {background: #03A9F4}
+    30% {background: #00BCD4}
+    40% {background: #009688}
+    50% {background: #4CAF50}
+    60% {background: #8BC34A}
+    70% {background: #CDDC39}
+    80% {background: #FFC107}
+    90% {background: #FF9800}
+    95% {background: #FF5722}
+    100% {background: #F44336}
+}
+
+@-webkit-keyframes colorchange
+{
+    0% {background: #3F51B5}
+    10% {background: #2196F3}
+    20% {background: #03A9F4}
+    30% {background: #00BCD4}
+    40% {background: #009688}
+    50% {background: #4CAF50}
+    60% {background: #8BC34A}
+    70% {background: #CDDC39}
+    80% {background: #FFEB3B}
+    90% {background: #FFC107}
+    95% {background: #FF9800}
+    100% {background: #FF5722}
 }
 
 .container {
