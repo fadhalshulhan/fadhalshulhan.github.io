@@ -1,55 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <link rel="shortcut icon" href="assets/img/icon.png">
+    <link rel="shortcut icon" href="assets/img/icon.png">
 
-        <title>Fadhal Shulhan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script>
+        var app = angular.module('app', []);
+        app.controller('MainCtrl', function ($http) {
+            var vm = this;
+                vm.loading = true;
+                $http.get('https://api.github.com/users/fadhalshulhan').then(function (res) {
+                    vm.name = res.data.name;
+                    vm.location = res.data.location;
+                    vm.public_repos = res.data.public_repos;
+                 
+                 
+                    vm.loading = false;
+                })
+        })
+    </script>
 
-    </head>
+    <title>Fadhal Shulhan</title>
 
-    <body>
+    <style>
+        html,
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("assets/img/bg.png");
+            background-repeat: no-repeat, repeat;
+            height: 100%; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
 
-        <div class="container">
-            <div class="text-center">
-                <h2 class="display-3">Hi, my name is Fadhal</h2>
-                <p class="container-fluid">
-                    <i>My Website in under construction right now. If you wanna see my portfolio, please click my portfolio in below. I'll be back for you :D</i>
-                </p>
-                <a href="https://goo.gl/JVqdUr" target="_blank">
-                    <figure>
-                        <img height="70" width="70" src="assets/img/github.png" alt="#mygithub">
-                        <figcaption>Github</figcaption>
-                    </figure>
-                </a>
-                <a href="https://goo.gl/QiHGcf" target="_blank">
-                    <figure>
-                        <img height="70" width="70" src="assets/img/behance.png" alt="#mybehance">
-                        <figcaption>Behance</figcaption>
-                    </figure>
-                </a>
-                <a href="https://goo.gl/bYXZ1c" target="_blank">
-                    <figure>
-                        <img height="65" width="65" src="assets/img/blog.png" alt="#myblog">
-                        <figcaption>Blog</figcaption>
-                    </figure>
-                </a>
-            </div>
+        .background {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+	
+    </style>
+
+
+</head>
+
+<body ng-controller="MainCtrl as vm">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="display-3">Hi, my name is Fadhal</h2>
+            <p class="container-fluid">
+                <i>My Website in under construction right now. If you wanna see my portfolio, please click my portfolio in below.
+                    I'll be back for you :D</i>
+            </p>
+            <a href="https://goo.gl/JVqdUr" target="_blank">
+                <figure>
+                    <img height="70" width="70" src="assets/img/github.png" alt="#mygithub">
+                    <figcaption>Github</figcaption>
+                </figure>
+            </a>
+            <a href="https://goo.gl/QiHGcf" target="_blank">
+                <figure>
+                    <img height="70" width="70" src="assets/img/behance.png" alt="#mybehance">
+                    <figcaption>Behance</figcaption>
+                </figure>
+            </a>
+            <a href="https://goo.gl/bYXZ1c" target="_blank">
+                <figure>
+                    <img height="65" width="65" src="assets/img/blog.png" alt="#myblog">
+                    <figcaption>Blog</figcaption>
+                </figure>
+            </a>
+
+            <h4 ng-if="vm.loading === true">Loading...</h4>
+            <h3>{{vm.public_repos}} Repositoris on My Github</h3>
         </div>
+    </div>
 
-    </body>
+ 
 
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </html>

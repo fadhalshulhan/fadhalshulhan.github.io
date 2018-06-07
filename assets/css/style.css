@@ -1,43 +1,5 @@
 
 
-body {
-    animation: colorchange  30s infinite alternate;
-    -webkit-animation: colorchange  30s infinite alternate; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-
-@keyframes colorchange
-{
-    0% {background: #2196F3}
-    25% {background: #2196F3}
-    35% {background: #03A9F4}
-    45% {background: #00BCD4}
-    55% {background: #009688}
-    65% {background: #4CAF50}
-    75% {background: #8BC34A}
-    85% {background: #CDDC39}
-    95% {background: #FFC107}
-    100% {background: #FF9800}
- 
-}
-
-@-webkit-keyframes colorchange
-{
-    0% {background: #2196F3}
-    25% {background: #2196F3}
-    35% {background: #03A9F4}
-    45% {background: #00BCD4}
-    55% {background: #009688}
-    65% {background: #4CAF50}
-    75% {background: #8BC34A}
-    85% {background: #CDDC39}
-    95% {background: #FFC107}
-    100% {background: #FF9800}
-}
-
-
 .container {
     width: 100%;
     align-items: center;
