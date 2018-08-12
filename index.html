@@ -38,7 +38,7 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url("assets/img/bg.svg");
+            background-color: #F2F4FA;
             height: 100%; 
             background-position: center;
             background-repeat: repeat;
@@ -59,13 +59,47 @@
 </head>
 
 <body ng-controller="MainCtrl as vm">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://fadhalshulhan.github.io/index.html">
+            <img src="assets/img/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Fadhal Studio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://fadhalshulhan.github.io/index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/fadhalshulhan/" target="_blank">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dribbble.com/fadhalshulhan" target="_blank">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/fadhalshulhan/" target="_blank">Contact
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+              
     <div class="container">
-        <div class="text-center">
+        <div class="d-inline-block text-center">
             <h2 class="display-3">Hi, my name is Fadhal</h2>
-            <p class="container-fluid">
-                <i>My Website in under construction right now. If you wanna see my portfolio, please click my portfolio in below.
-                    I'll be back for you :D</i>
-            </p>
             <a href="https://goo.gl/JVqdUr" target="_blank">
                 <figure>
                     <img height="70" width="70" src="assets/img/github.png" alt="#mygithub">
@@ -78,6 +112,12 @@
                     <figcaption>Behance</figcaption>
                 </figure>
             </a>
+            <a href="https://goo.gl/sdA8jL" target="_blank">
+                <figure>
+                    <img height="70" width="70" src="assets/img/dribbble.png" alt="#mydribbble">
+                    <figcaption>Dribbble</figcaption>
+                </figure>
+            </a>
             <a href="https://goo.gl/bYXZ1c" target="_blank">
                 <figure>
                     <img height="65" width="65" src="assets/img/blog.png" alt="#myblog">
@@ -85,17 +125,10 @@
                 </figure>
             </a>
 
-            <h4 ng-if="vm.loading === true">Loading...</h4>
+            <h4 ng-if="vm.loading === true">Loading</h4>
             <h3>{{vm.public_repos}} Repositoris on My Github</h3>
         </div>
     </div>
-
- 
-
-
-
-
-
 
 </body>
 
