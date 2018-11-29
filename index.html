@@ -8,7 +8,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125265239-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
@@ -42,29 +42,6 @@
 
     <title>Fadhal Shulhan</title>
 
-    <style>
-        html,
-        body {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #F2F4FA;
-            height: 100%; 
-            background-position: center;
-            background-repeat: repeat;
-            background-size: cover;
-         }
-
-        .background {
-            position: absolute;
-            display: block;
-            top: 0;
-            left: 0;
-            z-index: 0;
-        }
-	
-    </style>
-
 
 </head>
 
@@ -72,9 +49,10 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="https://fadhalshulhan.github.io/index.html">
-            <img src="assets/img/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Fadhal Shulhan</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/img/icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Fadhal
+            Shulhan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -106,28 +84,30 @@
             </ul>
         </div>
     </nav>
-              
+
     <div class="container">
-        <div class="d-inline-block text-center">
-            <a href="https://goo.gl/JVqdUr" target="_blank">
+        <div  class="d-inline-block text-center">
+            <div class="logo">
+        
+            <a class="my" href="https://goo.gl/JVqdUr" target="_blank">
                 <figure>
                     <img height="70" width="70" src="assets/img/github.png" alt="#mygithub">
                     <figcaption>Github</figcaption>
                 </figure>
             </a>
-            <a href="https://goo.gl/qKXZeE" target="_blank">
+            <a class="my" href="https://goo.gl/qKXZeE" target="_blank">
                 <figure>
                     <img height="70" width="70" src="assets/img/behance.png" alt="#mybehance">
                     <figcaption>Behance</figcaption>
                 </figure>
             </a>
-            <a href="https://goo.gl/sdA8jL" target="_blank">
+            <a class="my" href="https://goo.gl/sdA8jL" target="_blank">
                 <figure>
                     <img height="70" width="70" src="assets/img/dribbble.png" alt="#mydribbble">
                     <figcaption>Dribbble</figcaption>
                 </figure>
             </a>
-            <a href="https://goo.gl/bYXZ1c" target="_blank">
+            <a class="my" href="https://goo.gl/bYXZ1c" target="_blank">
                 <figure>
                     <img height="65" width="65" src="assets/img/blog.png" alt="#myblog">
                     <figcaption>Blog</figcaption>
@@ -136,17 +116,25 @@
 
             <h4 ng-if="vm.loading === true">Loading</h4>
             <h3>{{vm.public_repos}} Repositoris on My Github</h3>
+            </div>
+            <h2>My Dribbble Portfolio</h2>
+            <div id="shots"></div>
         </div>
     </div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="assets/js/index.js"></script>
 
 </body>
 
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+
+
 
 </html>
