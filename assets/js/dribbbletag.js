@@ -9,8 +9,8 @@ $.ajax({
     success: function(data) {  
       if (data.length > 0) { 
         $.each(data.reverse(), function(i, val) {                
-          $('#shots').prepend(
-            '<a class="shot" target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><div class="title">' + val.title + '</div><div class="titletag">Tags: ' + val.tags + '</div>'+'<img src="'+ val.images.hidpi +'"/></a>'
+          $('#tag').prepend(
+            '<a class="shot" target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><div class="title">' + val.title + '</div><img src="'+ val.images.hidpi +'"/></a>'
             )
         })
       }
