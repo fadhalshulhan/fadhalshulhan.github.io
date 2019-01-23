@@ -1,7 +1,7 @@
 $(function () {
 	var $content = $('#jsonContent');
 	var data = {
-        rss_url: 'https://medium.com/feed/@fadhilshu'  
+        rss_url: 'https://medium.com/feed/@fadhalshulhan'  
         // https://medium.com/feed/@fadhilshu
 	};
 	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
