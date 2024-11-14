@@ -1,0 +1,32 @@
+{
+  "name": "Fadhal Shulhan.",
+  "title": "Product Designer",
+  "description": "Experienced UI/UX Researcher and Designer with 5 years of experience and a Bachelor’s in Information Systems, skilled in end-to-end product design for web and mobile, focused on user-centric solutions in e-commerce, marketplace, and health tech, achieving high app ratings and user satisfaction.",
+  "button": {
+    "text": "Check out my resume",
+    "link": "https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?usp=sharing"
+  },
+  "resume": "https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?usp=sharing",
+  "github": "https://github.com/fadhalshulhan",
+  "about_me": {
+    "description": [
+        "Hello, I’m Fadhal Shulhan, a 27-year-old UI/UX researcher and designer with a Bachelor’s degree in Information Systems from Universitas Multimedia Nusantara, graduating with a GPA of 3.37/4.00.",
+        "With extensive experience in end-to-end product design, I have a strong grasp of user-centric analysis and visualization for both web and mobile platforms. My skills in problem-solving and collaboration enable me to thrive in both team-based and independent settings.",
+        "Today, I’m privileged to work on projects that create accessible, inclusive digital experiences for a diverse range of users. My work consistently receives high ratings, with an average app score of 4.5 and a very satisfied user satisfaction index. I also bring expertise in e-commerce, marketplace, and health technology industries.",
+        "I am dedicated to developing user-focused solutions that enhance the user experience and deliver meaningful results."
+    ],
+    "skills": [
+        "Qualitative Survey",
+        "Quantitative Survey",
+        "Interview",
+        "Usability Test",
+        "A/B Test",
+        "Competitive Analysis",
+        "Web Analysis",
+        "Figma",
+        "Graphic Illustration",
+        "Mobile Design",
+        "Website Design"
+    ]
+}
+}
