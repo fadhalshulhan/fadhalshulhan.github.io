@@ -5,7 +5,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 import MyCarousel from '../carousel';
 
-import kompetensi from '../../../static/slides/kompetensi.png';
+import kompetensi from '../../../static/slides/kompetensi.jpg';
 import kursus from '../../../static/slides/kursus.jpg';
 
 const StyledContactSection = styled.section`
@@ -39,10 +39,15 @@ const StyledContactSection = styled.section`
     font-size: clamp(40px, 5vw, 60px);
   }
 
+  .carousel-indicators {
+          bottom: -75px;  /* Menurunkan posisi indikator carousel */
+        }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+    
 `;
 
 const Contact = () => {
@@ -78,6 +83,10 @@ const Contact = () => {
         ]}
       />
 
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <h2 className="title">Get In Touch</h2>
 

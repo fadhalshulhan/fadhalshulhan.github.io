@@ -149,7 +149,7 @@ const About = ({ data }) => {
               clients.
             </p> */}
 
-            <p>Here are a few tools I’ve been working with recently:</p>
+            <p>Here are a few tools and skills I've been using recently:</p>
           </div>
 
           <ul className="skills-list">
