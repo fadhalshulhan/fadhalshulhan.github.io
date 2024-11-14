@@ -338,21 +338,47 @@ function MyVerticallyCenteredModal(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
+        <Modal.Title id="contained-modal-title-vcenter"  style={{ color: 'Black', fontWeight: '900'}}>
           {props?.title}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        {/* <h4>Centered Modal</h4> */}
-        <div className="project-description" dangerouslySetInnerHTML={{ __html: props?.html }} />
+      
+        <div className="project-description" style={{  color: '#333333',
+        fontSize: '18px',        
+        lineHeight: '1.5'}} 
+        dangerouslySetInnerHTML={{ __html: props?.html }} />
+        <br></br>
         <MyCarousel
           title={props?.title}
           images={props?.images}
         />
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+      <Button
+          onClick={props.onHide}
+          style={{
+            backgroundColor: '#007bff',  // Warna biru
+            color: 'white',              // Teks putih
+            padding: '12px 20px 8px 20px',        // Padding tombol
+            fontSize: '16px',            // Ukuran font
+            border: 'none',              // Hilangkan border
+            borderRadius: '24px',        // Sudut bulat
+            cursor: 'pointer',          // Kursor pointer
+            transition: 'background-color 0.3s, color 0.3s'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.backgroundColor = '#0056b3'; // Warna saat hover
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.backgroundColor = '#007bff'; // Kembali ke warna awal
+          }}
+        >
+          Close
+        </Button>
       </Modal.Footer>
     </Modal>
   );
 }
+
+
