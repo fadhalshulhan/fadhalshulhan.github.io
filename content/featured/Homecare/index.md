@@ -3,7 +3,7 @@ date: '1'
 title: 'Homecare'
 cover: './demo.png'
 github: null
-external: 'https://homecare.dkonsul.com/'
+external: 'https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?tab=t.vygrgu68eaio'
 tech:
   - Figma
   - Lottiefiles
