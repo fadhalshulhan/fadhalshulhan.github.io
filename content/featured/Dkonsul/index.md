@@ -12,4 +12,4 @@ tech:
   - CSAT
 ---
 
-Dkonsul is an online health consultation app with over 200K users, a 4.7 rating, and a "good" usability score. I designed the app and CMS, launched in 2021, and collaborated with Tokopedia, resulting in hundreds of thousands of teleconsultations.
+Dkonsul is an online health consultation app with over 200K users, a 4.7 rating, and a "good" usability score. I designed the app, launched in 2021, and collaborated with Tokopedia, resulting in hundreds of thousands of teleconsultations.
