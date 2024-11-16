@@ -12,8 +12,8 @@ images:
   - './images/mural/1.png'
   - './images/mural/2.png'
   - './images/mural/3.png'
-  - './images/mural/4.jpg'
-  - './images/mural/5.jpg'
+  - './images/mural/4.JPG'
+  - './images/mural/5.JPG'
   - './images/mural/6.jpeg'
 ---
 
