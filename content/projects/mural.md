@@ -12,6 +12,9 @@ images:
   - './images/mural/1.png'
   - './images/mural/2.png'
   - './images/mural/3.png'
+  - './images/mural/4.png'
+  - './images/mural/5.png'
+  - './images/mural/6.png'
 ---
 
 Actively participated in internal organizational activities, including designing graphics for office wall murals.
