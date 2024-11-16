@@ -3,7 +3,7 @@ date: '2'
 title: 'Dkonsul'
 cover: './demo.png'
 github: null
-external: 'https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?tab=t.vlj6qb3j38a9'
+cat: 'https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?tab=t.vlj6qb3j38a9'
 tech:
   - Figma
   - Lottiefiles
