@@ -49,7 +49,7 @@ const StyledHamburgerButton = styled.button`
     background-color: var(--green);
     transition-duration: 0.22s;
     transition-property: transform;
-    transition-delay: ${props => (props.menuOpen ? `0.12s` : `0s`)};
+    transition-delay: ${props => (props.menuOpen ? `0.1s` : `0s`)};
     transform: rotate(${props => (props.menuOpen ? `225deg` : `0deg`)});
     transition-timing-function: cubic-bezier(
       ${props => (props.menuOpen ? `0.215, 0.61, 0.355, 1` : `0.55, 0.055, 0.675, 0.19`)}

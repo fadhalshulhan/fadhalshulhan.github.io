@@ -216,7 +216,7 @@ const Nav = ({ isHome, data }) => {
                     navLinks &&
                     navLinks.map(({ url, name }, i) => (
                       <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
-                        <li key={i} style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
+                        <li key={i} style={{ transitionDelay: `${isHome ? i * 0 : 0}ms` }}>
                           <Link to={url}>{name}</Link>
                         </li>
                       </CSSTransition>
@@ -227,7 +227,7 @@ const Nav = ({ isHome, data }) => {
               <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
-                    <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
+                    <div style={{ transitionDelay: `${isHome ? navLinks.length * 0 : 0}ms` }}>
                       {ResumeLink}
                     </div>
                   </CSSTransition>

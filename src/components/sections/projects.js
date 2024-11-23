@@ -306,7 +306,7 @@ const Projects = () => {
                     key={i}
                     ref={el => (revealProjects.current[i] = el)}
                     style={{
-                      transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 100 : 0}ms`,
+                      transitionDelay: `${i >= GRID_LIMIT ? (i - GRID_LIMIT) * 0 : 0}ms`,
                     }}>
                     {projectInner(node, i)}
 

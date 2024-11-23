@@ -57,10 +57,10 @@ module.exports = {
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 50, viewFactor = 0.25) => ({
+  srConfig: (delay = 0, viewFactor = 0) => ({
     origin: 'bottom',
     distance: '10px',
-    duration: 200,
+    duration: 10,
     delay,
     rotate: { x: 0, y: 0, z: 0 },
     opacity: 0,

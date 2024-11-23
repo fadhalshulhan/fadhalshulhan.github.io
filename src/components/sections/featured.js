@@ -318,7 +318,7 @@ const Featured = () => {
       return;
     }
 
-    sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealTitle.current, srConfig(0, 0.0));
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
