@@ -59,13 +59,13 @@ module.exports = {
 
   srConfig: (delay = 0, viewFactor = 0) => ({
     origin: 'bottom',
-    distance: '10px',
-    duration: 10,
+    distance: '5px',
+    duration: 0,
     delay,
     rotate: { x: 0, y: 0, z: 0 },
     opacity: 0,
     scale: 1,
-    easing: 'ease-out', // Lebih responsif
+    easing: 'linear', // Lebih responsif
     mobile: true,
     reset: false,
     useDelay: 'always',

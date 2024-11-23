@@ -168,7 +168,7 @@ const items = [one, two, three, four, buttons];
           {isMounted &&
             items.map((item, i) => (
               <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i * 5}ms` }}>{item}</div>
+                <div style={{ transitionDelay: `${i * 0}ms` }}>{item}</div>
               </CSSTransition>
             ))}
         </TransitionGroup>
