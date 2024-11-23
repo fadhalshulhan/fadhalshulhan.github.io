@@ -1,0 +1,40 @@
+{
+  "name": "Fadhal Shulhan.",
+  "title": "Product Designer",
+  "description": "Experienced UI/UX Researcher and Designer with 5 years of experience and a Bachelor’s in Information Systems, skilled in end-to-end product design for web and mobile, focused on user-centric solutions in e-commerce, marketplace, and health tech, achieving high app ratings and user satisfaction.",
+  "button": {
+    "text": "My Resume",
+    "link": "https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?usp=sharing"
+  },
+  "buttonwork": {
+    "text": "My Portfolio",
+    "link": "https://fadhalshulhan.github.io/#projects"
+  },
+  "resume": "https://docs.google.com/document/d/1TRr7NGTTqmnOHrq7ae1_96fgLm-Iv7qMGJLeosdO_iI/edit?usp=sharing",
+  "github": "https://fadhalshulhan.github.io",
+  "about_me": {
+    "description": [
+      "Hello, I’m Fadhal Shulhan, a UI/UX Designer with a Bachelor’s degree in Information Systems from Universitas Multimedia Nusantara, graduating with a GPA of 3.37/4.00.",
+      "With over 5 years of experience in end-to-end product design, I specialize in user research, prototyping, usability testing, and scalable design systems. My skills in problem-solving and collaboration allow me to thrive in both team-based and independent settings.",
+      "I’m passionate about creating inclusive, user-centric digital experiences for a diverse range of users. My work spans industries like e-commerce, travel, and health tech, consistently achieving app ratings of 4.5+ and 'Highly Satisfactory' satisfaction scores.",
+      "I enjoy exploring design trends, experimenting with programming to enhance user experiences, and staying active with hobbies like gym workouts, running, and gaming."
+    ],
+    "skills": [
+      "Qualitative Survey",
+      "Quantitative Survey",
+      "Interview",
+      "Usability Test",
+      "A/B Test",
+      "Competitive Analysis",
+      "Web Analysis",
+      "Figma",
+      "Graphic Illustration",
+      "Microinteraction Animations",
+      "Mobile Design",
+      "Website Design",
+      "Front-End Programming (Ongoing Learning): HTML, CSS, React.js, ",
+      "Back-End Programming (Ongoing Learning): Node.js, GraphQL",
+      "Version Control: Git, GitHub"
+    ]
+  }
+}
