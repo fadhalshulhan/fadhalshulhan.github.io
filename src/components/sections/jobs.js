@@ -200,7 +200,7 @@ const Jobs = () => {
       return;
     }
 
-    sr.reveal(revealContainer.current, srConfig());
+    sr.reveal(revealContainer.current, srConfig(0, 0.25));
   }, [activeTabId]);
 
   const focusTab = () => {
