@@ -7,7 +7,11 @@ import MyCarouselTwo from '../carouselTwo';
 
 import kompetensi from '../../../static/slides/kompetensi.jpg';
 import kursus from '../../../static/slides/kursus.jpg';
+import kursusweb from '../../../static/slides/web.jpg';
 import kegiatan from '../../../static/slides/tia2018.jpg';
+import hackathon from '../../../static/slides/hackgen.jpg';
+import paskibraka from '../../../static/slides/hackgen.jpg';
+
 
 const StyledCertificateSection = styled.section`
  
@@ -65,7 +69,10 @@ const Certificate = () => {
       images={[
         { desc: '', publicURL: kompetensi },
         { desc: '', publicURL: kursus },
+        { desc: '', publicURL: kursusweb },
         { desc: '', publicURL: kegiatan },
+        { desc: '', publicURL: hackathon },
+        { desc: '', publicURL: paskibraka },
       ]}
     />
   </div>
