@@ -11,6 +11,8 @@ import kursusweb from '../../../static/slides/web.jpg';
 import kegiatan from '../../../static/slides/tia2018.jpg';
 import hackathon from '../../../static/slides/hackgen.jpg';
 import paskibraka from '../../../static/slides/paskibraka.jpg';
+import startup from '../../../static/slides/startup.jpg';
+import tiaser2018 from '../../../static/slides/tiaser2018.jpg';
 
 
 const StyledCertificateSection = styled.section`
@@ -70,8 +72,10 @@ const Certificate = () => {
         { desc: '', publicURL: kompetensi },
         { desc: '', publicURL: kursus },
         { desc: '', publicURL: kursusweb },
+        { desc: '', publicURL: tiaser2018 },
         { desc: '', publicURL: kegiatan },
         { desc: '', publicURL: hackathon },
+        { desc: '', publicURL: startup },
         { desc: '', publicURL: paskibraka },
       ]}
     />
