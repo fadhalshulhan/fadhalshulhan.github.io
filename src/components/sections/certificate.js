@@ -10,7 +10,7 @@ import kursus from '../../../static/slides/kursus.jpg';
 import kursusweb from '../../../static/slides/web.jpg';
 import kegiatan from '../../../static/slides/tia2018.jpg';
 import hackathon from '../../../static/slides/hackgen.jpg';
-import paskibraka from '../../../static/slides/hackgen.jpg';
+import paskibraka from '../../../static/slides/paskibraka.jpg';
 
 
 const StyledCertificateSection = styled.section`
