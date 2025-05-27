@@ -1,7 +1,7 @@
 {
   "name": "Fadhal Shulhan.",
-  "title": "Product Designer",
-  "description": "Experienced UI/UX Researcher and Designer with 5 years of experience and a Bachelor’s in Information Systems, skilled in end-to-end product design for web and mobile, focused on user-centric solutions in e-commerce, marketplace, and health tech, achieving high app ratings and user satisfaction.",
+  "title": "Software Engineer & UI/UX Designer",
+  "description": "Full Stack Software Engineer and UI/UX Researcher & Designer with expertise in front-end, back-end, and mobile development, delivering impactful digital solutions. Transitioned to full-stack development through Hacktiv8 bootcamp after 5 years as a UI/UX designer and researcher, crafting user-centered, end-to-end product designs for e-commerce, marketplace, health-tech, and fintech. Proficient in financial integrations, secure payment systems, and scalable design systems, achieving app ratings of 4.5+ and high user satisfaction. Holds a Bachelor of Science in Information Systems.",
   "button": {
     "text": "My Resume",
     "link": "https://kutt.it/fadhalshulhan_resume"
@@ -11,30 +11,26 @@
     "link": "https://fadhalshulhan.github.io/#projects"
   },
   "resume": "https://kutt.it/fadhalshulhan_resume",
-  "github": "https://fadhalshulhan.github.io",
+  "github": "https://github.com/fadhalshulhan",
   "about_me": {
-    "description": [
-      "Hello, I’m Fadhal Shulhan, a UI/UX Designer with a Bachelor’s degree in Information Systems from Universitas Multimedia Nusantara, graduating with a GPA of 3.37/4.00.",
-      "With over 5 years of experience in end-to-end product design, I specialize in user research, prototyping, usability testing, and scalable design systems. My skills in problem-solving and collaboration allow me to thrive in both team-based and independent settings.",
-      "I’m passionate about creating inclusive, user-centric digital experiences for a diverse range of users. My work spans industries like e-commerce, travel, and health tech, consistently achieving app ratings of 4.5+ and 'Highly Satisfactory' satisfaction scores.",
-      "I enjoy exploring design trends, experimenting with programming to enhance user experiences, and staying active with hobbies like gym workouts, running, and gaming."
-    ],
-    "skills": [
-      "Qualitative Survey",
-      "Quantitative Survey",
-      "Interview",
-      "Usability Test",
-      "A/B Test",
-      "Competitive Analysis",
-      "Web Analysis",
-      "Figma",
-      "Graphic Illustration",
-      "Microinteraction Animations",
-      "Mobile Design",
-      "Website Design",
-      "Front-End Programming (Ongoing Learning): HTML, CSS, React.js, ",
-      "Back-End Programming (Ongoing Learning): Node.js, GraphQL",
-      "Version Control: Git, GitHub"
-    ]
+   "description": [
+      "Hello, I’m Fadhal Shulhan, a Full Stack Software Engineer and UI/UX Researcher & Designer with a Bachelor of Science in Information Systems from Universitas Multimedia Nusantara, graduating with a GPA of 3.37/4.00.",
+      "With over 5 years of experience in end-to-end product design and user research, I specialize in prototyping, usability testing, and scalable design systems, complemented by expertise in front-end, back-end, and mobile development through Hacktiv8 bootcamp.",
+      "I’m passionate about crafting inclusive, user-centric digital solutions for industries such as e-commerce, marketplace, health-tech, fintech, and travel, consistently achieving app ratings of 4.5+ and ‘Highly Satisfactory’ user satisfaction scores.",
+      "Skilled in problem-solving, collaboration, and financial integrations, I thrive in both team-based and independent settings while delivering impactful digital experiences.",
+      "I enjoy exploring design trends, experimenting with programming to enhance user experiences, and staying active through gym workouts, running, and gaming."
+  ],
+   "skills": [
+      "Programming Language: JavaScript, TypeScript",
+      "Front-End Development: HTML5, CSS3, React.js, Next.js, Vite, Redux, Axios, Socket.io, TailwindCSS, Bootstrap, Firebase, Apollo Client, Deployment Client",
+      "Back-End Development: Node.js, Express.js, PostgreSQL, MongoDB, Supabase, Redis, Sequelize, RESTful API, GraphQL, Apollo Server, JWT, Amazon EC2, Google Cloud CE, Docker, Deployment Server, Domain Pointing, SSL, Cloudflare DNS",
+      "Mobile Development: React Native, Apollo, GraphQL, Expo",
+      "Testing: Jest, SuperTest, K6, Postman",
+      "GIT & CI/CD Version Control: Git, GitHub, GitLab",
+      "Research Skills: Qualitative and Quantitative Analysis, User Interviews, Surveys, Usability Testing, A/B Testing, Competitive Analysis, Web Analytics",
+      "Research Tools: Useberry, Maze, Microsoft Clarity, Hotjar, Google Analytics, SurveyMonkey, Typeform, Google Sheet, Google Meet, Trello, JIRA, Google Form",
+      "Design Skills: Visual Design, Wireframing, Prototyping, User Journey Mapping, User Flows, Illustrations, Microinteraction Animations, Motion Graphics",
+      "Design Tools: Figma, Adobe XD, LottieFiles, Adobe After Effects"
+  ]
   }
 }
