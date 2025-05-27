@@ -24,7 +24,8 @@ const StyledHeroSection = styled.section`
     font-weight: 400;
 
     @media (max-width: 480px) {
-      margin: 80px 0 20px 2px;
+      margin: 120px 0 20px 2px;
+      font-size: 16px;
     }
   }
 
